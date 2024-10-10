@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+
+<AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.desktopapp.SnakeGame">
+    <children>
+        <Label fx:id="scoreLabel" layoutX="10.0" layoutY="10.0" text="Pontuação: 0" />
+        <Pane fx:id="gamePane" layoutX="0.0" layoutY="40.0" prefHeight="360.0" prefWidth="400.0" style="-fx-background-color: #008000;">
+         <children>
+            <Polygon id="react1" fill="DODGERBLUE" layoutX="60.0" layoutY="158.0" points="15.300753593444824, 40.15493392944336, 50.0, 40.0, 30.99808692932129, 4.544338226318359" rotate="90.0" stroke="BLACK" strokeType="INSIDE" />
+            <Polygon id="react2" fill="DODGERBLUE" layoutX="24.0" layoutY="158.0" points="15.300753593444824, 40.15493392944336, 50.0, 40.0, 30.99808692932129, 4.544338226318359" rotate="91.1" stroke="BLACK" strokeType="INSIDE" />
+         </children></Pane>
+    </children>
+</AnchorPane>

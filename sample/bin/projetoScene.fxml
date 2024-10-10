@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="container" fx:id="btn" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseClicked="#btn" prefHeight="213.0" prefWidth="534.0" style="-fx-background-radius: 10; -fx-background-color: #390a37;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginSceneController">
+   <children>
+      <Button id="btn" fx:id="btn" layoutX="400.0" layoutY="130.0" mnemonicParsing="false" onAction="#submit" onMouseClicked="#onButtonClick" prefHeight="25.0" prefWidth="69.0" style="-fx-background-color: #71286f;" text="Logar" textFill="WHITE" />
+      <CheckBox id="cb" layoutX="45.0" layoutY="142.0" mnemonicParsing="false" text="Ver senha" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </CheckBox>
+      <Label id="newLabel" layoutX="50.0" layoutY="50.0" text="Login" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="88.0" text="Senha" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="12.0" />
+         </font>
+      </Label>
+      <PasswordField id="senha" layoutX="97.0" layoutY="84.0" prefHeight="25.0" prefWidth="372.0" />
+      <TextField id="login" layoutX="97.0" layoutY="46.0" prefHeight="25.0" prefWidth="372.0" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="CLOSED_HAND" />
+   </cursor>
+</Pane>
